@@ -25,3 +25,6 @@ for date, high, low in zip(daily_high.index, daily_high, daily_low):
 # 保存记录到文件（这里以CSV格式为例）
 record_df.to_csv("stock_records.csv", index=False)
 # stock-forecast
+pip install yfinance
+
+
